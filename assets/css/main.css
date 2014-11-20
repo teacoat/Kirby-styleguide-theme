@@ -1,5 +1,5 @@
 h1 {
-  font-weight: bold;
+  font-weight: 900;
   font-size: 26px;
   margin-bottom: 10px;
 }
@@ -15,9 +15,11 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   line-height: 1.1;
+  background: #f3f3f3;
 }
 main {
-  position: absolute;
+  position: fixed;
+  overflow: auto;
   left: 200px;
   top: 50px;
   bottom: 0;
@@ -26,7 +28,7 @@ main {
   box-sizing: border-box;
 }
 header {
-  position: absolute;
+  position: fixed;
   height: 50px;
   background: #0c77ba;
   top: 0;
@@ -39,7 +41,7 @@ header img {
   max-height: 100%;
 }
 nav {
-  position: absolute;
+  position: fixed;
   width: 200px;
   background: #313131;
   left: 0;
@@ -57,4 +59,19 @@ nav .menu .parentmenu .submenu {
 nav .menu a {
   color: #fff;
   text-decoration: none;
+}
+.snippetwrapper {
+  margin-bottom: 30px;
+  background: #fff;
+  padding: 10px;
+}
+.snippetwrapper .codepreview {
+  margin-top: 10px;
+}
+.snippetwrapper .codepreview span {
+  display: block;
+  padding: 10px;
+  background: #e8e8e8;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }

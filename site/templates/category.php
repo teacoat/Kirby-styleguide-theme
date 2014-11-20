@@ -6,6 +6,10 @@
 		<?php echo $page->text()->kirbytext() ?>
 	</div>
 
+	        <?php foreach($page->children()->visible() as $p): ?>
+		        <?php include('site/snippets/snippetwrapper.php') ?>
+	        <?php endforeach ?>
+
   </main>
 
 <?php snippet('footer') ?>

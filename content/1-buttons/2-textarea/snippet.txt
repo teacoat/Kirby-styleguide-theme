@@ -6,4 +6,8 @@ Css:
 
 ----
 
-Html: 
+Html: <input type="textarea">
+
+----
+
+Text: This is a textarea
