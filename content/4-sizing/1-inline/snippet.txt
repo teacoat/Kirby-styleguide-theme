@@ -1,0 +1,28 @@
+Title: Inline
+
+----
+
+Text: 
+
+----
+
+Css: 
+
+.inline {
+    display: inline-block;
+
+    /* demo css */
+    background:red;
+    outline: solid 1px;
+    width: 50px;
+    height: 20px;
+}
+
+----
+
+Html: 
+
+<div class="inline"></div>
+<div class="inline"></div>
+<div class="inline"></div>
+<div class="inline"></div>

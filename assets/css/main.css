@@ -77,12 +77,11 @@ nav .menu a {
   border-bottom: solid 1px #656565;
 }
 .snippetwrapper p.snippetdesc {
-  padding-bottom: 10px;
-  border-bottom: solid 1px #cdcdcd;
   margin-bottom: 10px;
 }
 .snippetwrapper .codepreview {
   margin-top: 10px;
+  clear: both;
 }
 .snippetwrapper .codepreview span {
   display: block;

@@ -1,0 +1,21 @@
+Title: 100%
+
+----
+
+Text: 
+
+----
+
+Css: 
+
+.width-100 {
+    width: 100%;
+   
+ /* demo css */
+    height: 20px;
+    background:red;
+}
+
+----
+
+Html: <div class="width-100"></div>

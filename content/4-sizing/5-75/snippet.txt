@@ -1,0 +1,21 @@
+Title: 75%
+
+----
+
+Text: 
+
+----
+
+Css: 
+
+.width-75 {
+    width: 75%;
+   
+ /* demo css */
+    height: 20px;
+    background:red;
+}
+
+----
+
+Html: <div class="width-75"></div>

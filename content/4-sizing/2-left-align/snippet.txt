@@ -1,0 +1,28 @@
+Title: Left Align
+
+----
+
+Text: 
+
+----
+
+Css: 
+
+.left {
+    float:left;
+
+    /* demo css */
+    background:red;
+    outline: solid 1px;
+    width: 50px;
+    height: 20px;
+}
+
+----
+
+Html: 
+
+<div class="left"></div>
+<div class="left"></div>
+<div class="left"></div>
+<div class="left"></div>

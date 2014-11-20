@@ -1,0 +1,21 @@
+Title: 50%
+
+----
+
+Text: 
+
+----
+
+Css: 
+
+.width-50 {
+    width: 50%;
+   
+ /* demo css */
+    height: 20px;
+    background:red;
+}
+
+----
+
+Html: <div class="width-50"></div>
