@@ -9,6 +9,8 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
   <?php echo css('assets/css/reset.css') ?>
   <?php echo css('assets/css/main.css') ?>
 
@@ -17,7 +19,7 @@
 
   <header class="header cf" role="banner">
     <a class="logo" href="<?php echo url() ?>">
-      <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
+      <img src="<?php echo url('assets/images/logo.png') ?>" alt="<?php echo $site->title()->html() ?>" />
     </a>
   </header>
 

@@ -1,28 +1,40 @@
 @navwidth: 200px;
 @headerheight: 50px;
 
-header {
-  position: absolute;
-  height: @headerheight;
-  background: #a94774;
-  top: 0;
-  left: 0;
-  right: 0;
+h1 {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 10px;
 }
 
-nav {
-  position: absolute;
-  width: @navwidth;
-  background: #a9a9a9;
-  left: 0;
-  top: @headerheight;
-  bottom: 0;
+h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 1.1;
 }
 
 main {
-  position: absolute;
-  left: @navwidth;
-  top: @headerheight;
-  bottom: 0;
-  right: 0;
+    position: absolute;
+    left: @navwidth;
+    top: @headerheight;
+    bottom: 0;
+    right: 0;
+
+    padding: 20px;
+    box-sizing: border-box;
 }
+
+@import 'header.less';
+@import 'nav.less';
+@import 'snippet.less';
+

@@ -7,6 +7,9 @@ fields:
   title:
     label: Title
     type:  text
+  text:
+    label: Text
+    type:  textarea
   css:
     label: CSS
     type:  textarea

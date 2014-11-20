@@ -8,4 +8,5 @@ language: en
 role: admin
 token: 1ec72a4adab9908b1224c267fc3390e3e6f3b113
 history:
+  - buttons/submit
   - buttons

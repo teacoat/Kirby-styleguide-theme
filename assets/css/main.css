@@ -1,18 +1,20 @@
-header {
-  position: absolute;
-  height: 50px;
-  background: #a94774;
-  top: 0;
-  left: 0;
-  right: 0;
+h1 {
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 10px;
 }
-nav {
-  position: absolute;
-  width: 200px;
-  background: #a9a9a9;
-  left: 0;
-  top: 50px;
-  bottom: 0;
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 10px;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
 }
 main {
   position: absolute;
@@ -20,4 +22,39 @@ main {
   top: 50px;
   bottom: 0;
   right: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+header {
+  position: absolute;
+  height: 50px;
+  background: #0c77ba;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+header img {
+  max-height: 100%;
+}
+nav {
+  position: absolute;
+  width: 200px;
+  background: #313131;
+  left: 0;
+  top: 50px;
+  bottom: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+nav .menu .parentmenu {
+  margin-bottom: 15px;
+}
+nav .menu .parentmenu .submenu {
+  padding-left: 15px;
+}
+nav .menu a {
+  color: #fff;
+  text-decoration: none;
 }
