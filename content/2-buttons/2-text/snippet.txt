@@ -1,0 +1,20 @@
+Title: Text Input
+
+----
+
+Css: 
+
+input[type=text] {
+    width:100%;
+    background:transparent;
+    border: solid 1px;
+    padding:3px;
+}
+
+----
+
+Html: <input type="text">
+
+----
+
+Text: 

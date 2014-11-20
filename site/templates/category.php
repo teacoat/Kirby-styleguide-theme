@@ -2,14 +2,15 @@
 
   <main class="main category" role="main">
 	<div class="categoryinfo">
-		<h1><?php echo $page->title()->html() ?></h1>
-		<?php echo $page->text()->kirbytext() ?>
+		<h1 class="guide"><?php echo $page->title()->html() ?></h1>
+		<p class="guide"><?php echo $page->text()->kirbytext() ?></p>
 	</div>
 
-	        <?php foreach($page->children()->visible() as $p): ?>
+	        <?php foreach($page->children() as $p): ?>
 		        <?php include('site/snippets/snippetwrapper.php') ?>
 	        <?php endforeach ?>
 
   </main>
 
 <?php snippet('footer') ?>
+

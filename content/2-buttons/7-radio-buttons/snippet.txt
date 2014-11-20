@@ -1,0 +1,17 @@
+Title: Radio Buttons
+
+----
+
+Text: 
+
+----
+
+Css: 
+
+----
+
+Html: 
+
+<input type="radio" class="radio" name="radio_button" value="radio_1" /> Radio 1<br/>
+<input type="radio" class="radio" name="radio_button" value="radio_2" /> Radio 2<br/>
+<input type="radio" class="radio" name="radio_button" value="radio_3" /> Radio 3<br/>

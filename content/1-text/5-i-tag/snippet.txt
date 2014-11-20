@@ -1,0 +1,13 @@
+Title: I Tag
+
+----
+
+Text: 
+
+----
+
+Css: i { font-style: italic; }
+
+----
+
+Html: <p>The <i>i element</i> example</p>

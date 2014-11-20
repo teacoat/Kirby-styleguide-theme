@@ -1,0 +1,13 @@
+Title: File Input
+
+----
+
+Text: 
+
+----
+
+Css: 
+
+----
+
+Html: <input type="file" name="file" />

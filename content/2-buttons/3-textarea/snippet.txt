@@ -1,0 +1,20 @@
+Title: Textarea
+
+----
+
+Css: 
+
+textarea {
+    width: 100%;
+    height: 200px;
+    background:transparent;
+    border: solid 1px;
+}
+
+----
+
+Html: <textarea></textarea>
+
+----
+
+Text: This is a textarea

@@ -4,9 +4,9 @@ Title: Submit
 
 Css: 
 
-input { 
-    background:red; 
-    border:none;
+input[type=submit] { 
+    background:transparent; 
+    border:solid 1px #000;
 }
 
 ----

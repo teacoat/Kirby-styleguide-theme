@@ -1,0 +1,13 @@
+Title: Strong Tag
+
+----
+
+Text: 
+
+----
+
+Css: strong { font-weight:bold; }
+
+----
+
+Html: <p>The <strong>strong element</strong> example</p>

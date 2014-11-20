@@ -1,0 +1,19 @@
+Title: Audio Element
+
+----
+
+Text: 
+
+----
+
+Css: 
+
+----
+
+Html: 
+
+<audio controls>
+        <source src="http://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+  	<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+  	Your browser does not support the audio element.
+</audio>

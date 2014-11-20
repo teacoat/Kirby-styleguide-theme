@@ -1,0 +1,18 @@
+Title: Sup Tag
+
+----
+
+Text: 
+
+----
+
+Css: 
+
+sup {
+    vertical-align: super;
+    font-size: 0.6em;
+}
+
+----
+
+Html: <p>The <sup>sup element</sup> example</p>

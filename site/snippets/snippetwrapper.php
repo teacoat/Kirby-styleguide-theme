@@ -1,6 +1,7 @@
 <div class="snippetwrapper">
-	<h2><?php echo $p->title()->html() ?></h2>
-	<p><?php echo $p->text()->kirbytext() ?></p>
+	<h2 class="guide"><?php echo $p->title()->html() ?></h2>
+	<p class="guide snippetdesc"><?php echo $p->text() ?></p>
+
 	<style type="text/css">
 			<?php echo $p->css() ?>
 	</style>
@@ -9,8 +10,9 @@
 
 	<div class="codepreview">
 		CSS:
-		<span><?php echo nl2br($p->css()) ?></span>
+		<span><?php echo '<pre>'.$p->css().'</pre>' ?></span>
 		HTML:
-		<span><?php echo nl2br(htmlspecialchars(($p->html()))); ?></span>
+		<span><?php echo '<pre>'.htmlspecialchars(($p->html())).'</pre>'; ?></span>
 	</div>
 </div>
+
