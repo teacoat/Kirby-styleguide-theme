@@ -1,12 +1,12 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Category
-pages: snippet
+title: Color
+pages: false
 files: false
 fields:
   title:
     label: Title
     type:  text
-  text:
-    label: Text
-    type:  textarea
+  hex:
+    label: Hex
+    type:  text

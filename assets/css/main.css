@@ -54,6 +54,7 @@ nav {
   left: 0;
   top: 50px;
   bottom: 0;
+  overflow: auto;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -89,4 +90,17 @@ nav .menu a {
   background: #e8e8e8;
   margin-bottom: 5px;
   margin-top: 5px;
+}
+.colorgroupwrapper {
+  width: 48%;
+  margin-right: 1%;
+  float: left;
+  background: #fff;
+}
+.colorgroupwrapper span {
+  padding: 10px;
+  display: block;
+}
+.colorgroupwrapper .colorwrapper {
+  padding: 10px;
 }

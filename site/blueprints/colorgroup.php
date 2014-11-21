@@ -1,7 +1,7 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Category
-pages: snippet
+title: Colorgroup
+pages: color
 files: false
 fields:
   title:
