@@ -1,0 +1,47 @@
+Title: Comment
+
+----
+
+Text: 
+
+----
+
+Css: 
+
+.comment .commentinfo .info {
+  display: inline-block;
+  vertical-align: top;
+}
+.comment .commentinfo .info h3 {
+  color: rgba(255, 255, 255, 0.6);
+}
+.comment .commentinfo .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  border: solid 2px #f04e35;
+}
+.comment .commentinfo .avatar img {
+  max-height: 100%;
+}
+
+----
+
+Html: 
+
+<div class="comment">
+        <div class="commentinfo">
+                <div class="avatar">
+                        <img src="../assets/images/profile_pic.png" alt="">
+                </div>
+                <div class="info">
+                        <h3>Username</h3>
+                        <span>2014/12/21</span>	
+                </div>
+        </div>
+        <div class="commentcontent">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel justo commodo, dignissim leo quis, rhoncus massa. Nunc nisl nisi, imperdiet ac dui a, posuere pulvinar libero. Cras sodales tellus vehicula augue ultricies venenatis. Nullam vitae lacinia dolor, vitae mattis eros. Integer magna nibh, hendrerit ullamcorper dictum sit amet, bibendum sit amet tellus. Vivamus conse
+        </div>
+</div>

@@ -5,7 +5,7 @@
 		    <li class="parentmenu">
 		      <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
 
-		      <?php if($p->hasVisibleChildren()): ?>
+		      <?php if($p->hasVisibleChildren() && $p->title() != 'Colors'): ?>
 			      <ul class="submenu">
 			        <?php foreach($p->children()->visible() as $p): ?>
 				        <li>
